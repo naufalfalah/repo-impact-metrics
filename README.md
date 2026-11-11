@@ -144,7 +144,7 @@ tests/                         stdlib unittest suite for both scripts
 python3 -m unittest discover -s tests -v
 ```
 
-CI runs the suite on Python 3.9–3.13. When you add a detection pattern, add a fixture line
+CI runs the suite on Python 3.10–3.13. When you add a detection pattern, add a fixture line
 for it in `tests/test_repo_metrics.py`.
 
 ## License
